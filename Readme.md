@@ -1,8 +1,6 @@
 One simple way to quickly have data quality checks on top of BigQuery.
 
-It created scheduled queries that raises errors in case of data quality issues found, triggering GCP monitoring alerts.
-
-Deployed with Terraform.
+It uses Terraform to deploy scheduled queries that raise errors in case of data quality issues found, triggering GCP monitoring alerts.
 
 ### Alerts deployed:
 
