@@ -35,7 +35,7 @@ resource "google_monitoring_alert_policy" "found_bad_records" {
 
 resource "google_monitoring_alert_policy" "scheduled_query_failed" {
   enabled      = true
-  display_name = "F-records data quality - Scheduled Query ${google_bigquery_data_transfer_config.scheduled_query.display_name} failed to run."
+  display_name = "BigQuery Data Quality Check - Scheduled Query ${google_bigquery_data_transfer_config.scheduled_query.display_name} failed to run."
 
   documentation {
     content   = "The scheduled query has failed to run, which means we cannot be be notified if the data quality checks finds something."
