@@ -8,7 +8,7 @@ BEGIN
         FROM
           `bigquery-public-data.samples.natality`
         WHERE
-          year > 2008
+          year > extract(year from @run_date)
           OR year < 1969
     );
 
