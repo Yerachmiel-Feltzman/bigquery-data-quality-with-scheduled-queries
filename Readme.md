@@ -2,6 +2,8 @@ One simple way to quickly have data quality checks on top of BigQuery.
 
 It uses Terraform to deploy scheduled queries that raise errors in case of data quality issues found, triggering GCP monitoring alerts.
 
+An in depth explanation can be found in [the article I wrote in the subject](https://medium.com/@yefeltz/creating-scheduled-data-quality-alerts-for-bigquery-using-only-gcp-built-in-services-e05f8639b421). 
+
 ![simple-architecture-diagram.png](simple-architecture-diagram.png)
 
 ### Alerts deployed:
